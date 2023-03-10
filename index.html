@@ -9,26 +9,32 @@
 </head>
 <body>
     
+    <h1>Le jeu de Dés</h1>
+
     <!-- Création Joueurs / boutons et scores-->
-    <div id="player1">
-        <h2>Joueur 1</h2>
-        <div id="dice1">1</div>
-        <button id="roll-button-1">Lancer</button>
-        <button id="keep-button-1">Garder</button>
-        <button id="new-turn-button-1">Nouveau tour</button>
+    <div class="container player1" id="player1">
+        <div class="player">
+            <h2>Joueur 1</h2>
+        </div>
+        <div class="dice" id="dice1">1</div>
+        <button class="roll-button button" id="roll-button-1">Lancer</button>
+        <button class="keep-button button" id="keep-button-1" disabled>Garder</button>
         <p>Score courant : <span id="current-score-1">0</span></p>
         <p>Score total : <span id="total-score-1">0</span></p>
     </div>
 
-    <div id="player2">
-        <h2>Joueur 2</h2>
-        <div id="dice2">1</div>
-        <button id="roll-button-2">Lancer</button>
-        <button id="keep-button-2">Garder</button>
-        <button id="new-turn-button-2">Nouveau tour</button>
+    <div class="container player2" id="player2">
+        <div class="player">
+            <h2>Joueur 2</h2>
+        </div>
+        <div class="dice" id="dice2">1</div>
+        <button class="roll-button button" id="roll-button-2">Lancer</button>
+        <button class="keep-button button" id="keep-button-2" disabled>Garder</button>
         <p>Score courant : <span id="current-score-2">0</span></p>
         <p>Score total : <span id="total-score-2">0</span></p>
     </div>
+
+    <button class="new-game-button button" id="new-turn-button" disabled>Nouveau tour</button>
   
     <script src="scripts.js"></script>
 </body>

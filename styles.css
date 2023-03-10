@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    justify-content:space-around;    
+    margin-top: 50px;
+}
+.player {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+.player h2 {
+    font-size: 20px;
+}
+.player1 {
+    background-color: #ffe0b2;
+}
+.player2 {
+    background-color: #b2ebf2;
+}
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+.button {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.roll-button {
+    background-color: #f44336;
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+}
+.keep-button {
+    background-color: #4caf50;
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+}
+.new-game-button {
+    background-color: #008cba;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+p {
+    margin-top: 52px;
+    font-size: 20px;
+}
